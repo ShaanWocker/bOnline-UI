@@ -6,7 +6,6 @@
                 </div>
             </div>
             <div class="col-9 padding-0">
-              
                 <Billing />
             </div>
         </div>

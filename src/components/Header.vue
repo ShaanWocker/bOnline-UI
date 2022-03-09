@@ -1,6 +1,6 @@
 <template>
-  <div class="border border-1" style="border-bottom:1px solid #000;height:100px">
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <div class="border border-1" style="border-bottom:1px solid #000;height:100px;width:100%">
+    <nav class="navbar navbar-expand-lg  ">
       <div class="container-fluid">
         <a class="navbar-brand logo-image" href="#" >
           <img  src="https://assets-global.website-files.com/608a9a94f3d2f96ef8bbe85a/60eec3dc9dc518c0c21d42c9_bOnline%20logo%20DARK.svg" alt="bOnline">
@@ -13,10 +13,10 @@
           </ul>
 
           <form class="d-flex ">
-            <div class="vl ms-5 me-4 mt-3">
+            <div class="vl ms-5  mt-3">
             </div>
-            <div class="dropdown">
-              <a class="btn btn-light dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
+            <div class="dropdown ">
+              <a class="btn  dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
                 <h5>Jane Windie</h5>
                   <a href="mailto:webmaster@example.com">janewindei@bonline.co.za</a>
               </a>

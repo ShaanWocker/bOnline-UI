@@ -1,7 +1,8 @@
 <template>
+<div class="billing">
     <div class="container">
             <div class="row">
-                <div class="col">
+                <div class="col mb-3">
                     <div class="card">
                         <div class="card-body">
                             <h5 class="card-title">Macrotel Phone</h5>
@@ -10,7 +11,7 @@
                         </div>
                     </div>
                 </div>   
-                <div class="col">
+                <div class="col  mb-3">
                     <div class="card">
                         
                         <div class="card-body">
@@ -20,7 +21,7 @@
                         </div>
                     </div>
                 </div>   
-                <div class="col">
+                <div class="col  mb-3">
                     <div class="card">
                         
                         <div class="card-body">
@@ -32,6 +33,8 @@
                 </div>   
             </div>
         </div>
+</div>
+    
 </template>
 
 <script>
@@ -39,4 +42,12 @@ export default {
     name: 'ThreeCards',
     
 }
+
 </script>
+
+
+<style scoped >
+ .billing {
+        background-color: #eeeeef;
+    }
+</style>

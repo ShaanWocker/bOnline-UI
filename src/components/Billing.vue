@@ -1,8 +1,11 @@
 <template>
-    <BillingHeader />
-    <ThreeCards />
-    <TwoCards />
-    <Table />
+     
+        <BillingHeader />
+       
+        <ThreeCards />
+        <TwoCards />
+        <Table />
+       
 </template>
 
 <script>
@@ -21,3 +24,7 @@ export default {
     }
 }
 </script>
+
+<style scoped>
+   
+</style>
