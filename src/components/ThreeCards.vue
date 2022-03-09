@@ -49,5 +49,6 @@ export default {
 <style scoped >
  .billing {
         background-color: #eeeeef;
+        height: auto;
     }
 </style>

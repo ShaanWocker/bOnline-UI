@@ -11,7 +11,6 @@
               <fa icon="bell" />
             </li>
           </ul>
-
           <form class="d-flex ">
             <div class="vl ms-5  mt-3">
             </div>
