@@ -1,11 +1,12 @@
 <template>
         <div class="row">
-            <div class="col-4">
-                <div class="border border-1" style="border:0.1px solid #000;height:500px">
+            <div class="col-3 padding-0">
+                <div class="border border-1" style="border:1px solid #000;height:100%;width:100%">
                     <MenuBar />
                 </div>
             </div>
-            <div class="col-6">
+            <div class="col-9 padding-0">
+              
                 <Billing />
             </div>
         </div>
@@ -24,3 +25,10 @@ export default {
   }
 }
 </script>
+
+<style scoped>
+  .padding-0{
+    padding-right:0;
+    padding-left:0;
+}
+</style>

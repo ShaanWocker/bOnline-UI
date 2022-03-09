@@ -1,5 +1,5 @@
 <template>
-    <div class="container text-center">
+    <div class="container text-center menu-bar">
         <div class="row m-3">
         <button type="button" class="btn btn-outline-primary ">
             <fa icon="home" /> <span>   </span>Home
@@ -14,3 +14,9 @@
 <script>
 
 </script>
+
+<style scoped>
+.menu-bar {
+    width: 100%
+}
+</style>
