@@ -5,8 +5,8 @@
                 <div class="col mb-3">
                     <div class="card">
                         <div class="card-body">
-                            <h5 class="card-title">Macrotel Phone</h5>
-                            <p class="card-text">Account ID: 200159</p>
+                            <h5 class="card-title">{{$store.state.user1.business_name}}</h5>
+                            <p class="card-text">Account ID: {{$store.state.user1.account_id}}</p>
                             <a href="#" class="btn btn-success">Active</a>
                         </div>
                     </div>

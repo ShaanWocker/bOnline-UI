@@ -1,7 +1,5 @@
 <template>
-     
         <BillingHeader />
-       
         <ThreeCards />
         <TwoCards />
         <Table />

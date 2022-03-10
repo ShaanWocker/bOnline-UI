@@ -16,8 +16,8 @@
             </div>
             <div class="dropdown ">
               <a class="btn  dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
-                <h5>Jane Windie</h5>
-                  <a href="mailto:webmaster@example.com">janewindei@bonline.co.za</a>
+                <h5>{{$store.state.user1.first_name}} {{$store.state.user1.last_name}} </h5>
+                  <a href="mailto:webmaster@example.com">{{$store.state.user1.email_address}}</a>
               </a>
             </div>
           </form>
@@ -32,11 +32,7 @@
 
 
   export default {
-    
     name: 'Header',
-    props : {
-      title: String,
-    },
   }
   
 </script>

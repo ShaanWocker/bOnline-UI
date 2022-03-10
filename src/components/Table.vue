@@ -1,7 +1,10 @@
 <template>
-      <div class="container">
-
+      <div class="container table-bg">
         <div class="card">
+          <div class="card-header" >
+                            <h5>Billing history</h5>
+                             <p class="card-text">Choose a billing plan to see more details.</p>
+                        </div>
           <div class="card-body">
               <table class="table">
       <thead>
@@ -61,3 +64,12 @@ export default {
     name: 'Table'
 }
 </script>
+
+<style scoped>
+.card-header {
+    background-color: #ffffff
+}
+.table-bg{
+    background-color: #eeeeef;
+}
+</style>

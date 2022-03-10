@@ -1,6 +1,6 @@
 <template>
     <div class="container two-cards-bg">
-             <div class="row mt-3 mb-3">
+             <div class="row mt-0 ">
                  <div class="col mt-3 mb-3 ml-4 mr-3">
                      <div class="card" style="width: 100%;">
                         <div class="card-header" >
@@ -8,22 +8,22 @@
                              <p class="card-text">View details of your next invoice and payment method</p>
                         </div>
                         <div class="card-body row ">
-                            <p class="card-title ">Next Invoice: 10 Feb 2022</p>
+                            <p class="card-title ">Next Invoice: {{$store.state.user1.next_invoice_date}}</p>
                             <div class="card " style="width: 18rem;">
                             <div class="card-body">
                                 <p class="card-title">Current balance</p>
-                                <h1 class="card-subtitle mb-2 text-muted">R59</h1>
-                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                                <h1 class="card-subtitle mb-2 text-muted">{{$store.state.user1.balance}}</h1>
+                                 <p class="card-subtitle mb-2 text-muted"><fa icon="lock" class="lock-icon" />This is a secure 256-bit SSL encrypted payment. You're safe.</p>
+                            <a href="#" class="btn btn-primary">Pay Now</a>
                             </div>
                             </div>
                             <div class="card" style="width: 18rem;">
                             <div class="card-body">
-                                <h5 class="card-title">Card title</h5>
-                                <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
-                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                            <a href="#" class="btn btn-primary">Go somewhere</a>
-                            </div>
+                                <p class="card-title">Payment method Annual</p>
+                                <p class="card-subtitle mb-2 text-muted">Guid to manage your more easily, we recomend switching to Direct Debit.</p>
+                                
+                            <a href="#" class="btn btn-primary">Switch to Direct Debit</a>
+                            </div> 
                             </div>
                         </div>
                     </div>
@@ -61,6 +61,10 @@ export default {
 .icon{
     margin-right: 25px;
     margin-left: 20px;
+}
+.lock-icon{
+    margin-right: 10px;
+    margin-left: 5px;
 }
 .two-cards-bg{
     background-color: #eeeeef;
