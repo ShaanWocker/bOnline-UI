@@ -17,6 +17,7 @@
             <div class="dropdown ">
               <a class="btn  dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
                 <h5>{{$store.state.user1.first_name}} {{$store.state.user1.last_name}} </h5>
+                <img src="../assets/image.png" alt="Avatar" class="avatar mb-2" style="border-radius: 50%">
                   <a href="mailto:webmaster@example.com">{{$store.state.user1.email_address}}</a>
               </a>
             </div>
@@ -28,8 +29,6 @@
 </template>
 
 <script>
-
-
 
   export default {
     name: 'Header',
